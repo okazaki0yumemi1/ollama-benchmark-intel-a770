@@ -21,10 +21,10 @@ I ran the script 5 times with some models I had and got the following results:
 |:--|:--|:--|:--|
 |deepseek-r1:14b|16.65 tokens/second|81W + 86W|5157 MiB + 5625 MiB|
 |phi4:14b|19.08 tokens/second|90W + 92W|5749 MiB + 5732 MiB|
+|qwen2.5:14b|16.97 tokens/second|75W + 77W|5150 MiB + 5619 MiB|
 |qwen3:4b|23.01 tokens/second|70W + 71W|2016 MiB + 2382 MiB|
-|qwen3:30b*|11.23 tokens/second|73W + 68W|9634 MiB + 9425 MiB| 
-
-*qwen3:30b - got 4 tokens/second on 3rd and 4th run, decided to stop the benchmark.
+|qwen3:14b|18.52 tokens/second|87W + 89W|5246 MiB + 5265 MiB|
+|qwen3:30b|11.76 tokens/second|73W + 68W|9634 MiB + 9425 MiB| 
 
 For the VRAM usage and power consumption I was using these commands:
 ```
